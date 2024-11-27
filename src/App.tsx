@@ -51,9 +51,9 @@ export default function App() {
                 </ResizablePanel>
                 <ResizableHandle withHandle />
                 <ResizablePanel>
-                    <ul className="h-full space-y-4 p-8">
+                    <ul className="h-full space-y-1 p-8">
                         {outputArray.map((item, index) => (
-                            <li key={index} className="text-sm">{item}</li>
+                            <li key={index} className="hover:bg-slate-100 rounded-lg cursor-pointer px-2 py-2 text-sm">{item}</li>
                         ))}
                     </ul>
                 </ResizablePanel>
